@@ -20,6 +20,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restaurant/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/restaurant/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -30,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="order.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="order.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/restaurant/templates/order.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -50,42 +62,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/restaurant/apps.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+            <state relative-caret-position="318">
+              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
               <folding>
-                <marker date="1481926469044" expanded="true" signature="0:308" ph="&quot;&quot;&quot;Django settings for mysite project....&quot;&quot;&quot;" />
-                <marker date="1481926469044" expanded="true" signature="466:669" ph="..." />
-                <marker date="1481926469044" expanded="true" signature="882:1101" ph="..." />
-                <marker date="1481926469044" expanded="true" signature="1121:1341" ph="..." />
-                <marker date="1481926469044" expanded="true" signature="1358:1755" ph="..." />
-                <marker date="1481926469044" expanded="true" signature="1801:2270" ph="..." />
-                <marker date="1481926469044" expanded="true" signature="1807:2267" ph="..." />
-                <marker date="1481926469044" expanded="true" signature="1944:2260" ph="..." />
-                <marker date="1481926469044" expanded="true" signature="1980:2249" ph="..." />
-                <marker date="1481926469044" expanded="true" signature="2320:2395" ph="..." />
-                <marker date="1481926469044" expanded="true" signature="2410:2696" ph="..." />
-                <marker date="1481926469044" expanded="true" signature="2427:2694" ph="..." />
-                <marker date="1481926469044" expanded="true" signature="2700:2801" ph="..." />
-                <marker date="1481926469044" expanded="true" signature="2831:3225" ph="..." />
-                <marker date="1481926469044" expanded="true" signature="2837:2934" ph="..." />
-                <marker date="1481926469044" expanded="true" signature="2942:3029" ph="..." />
-                <marker date="1481926469044" expanded="true" signature="3037:3125" ph="..." />
-                <marker date="1481926469044" expanded="true" signature="3133:3222" ph="..." />
-                <marker date="1481926469044" expanded="true" signature="3229:3305" ph="..." />
-                <marker date="1481926469044" expanded="true" signature="3433:3534" ph="..." />
+                <element signature="e#2#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,7 +77,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/restaurant/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="647">
+            <state relative-caret-position="1207">
               <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -109,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api_views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/restaurant/api_views.py">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restaurant/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-73">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -186,11 +169,11 @@
         <option value="$PROJECT_DIR$/login/views.py" />
         <option value="$PROJECT_DIR$/restaurant/urls.py" />
         <option value="$PROJECT_DIR$/restaurant/views.py" />
-        <option value="$PROJECT_DIR$/mysite/settings.py" />
         <option value="$PROJECT_DIR$/restaurant/templates/add.html" />
         <option value="$PROJECT_DIR$/restaurant/templates/main.html" />
         <option value="$PROJECT_DIR$/restaurant/templates/order.html" />
         <option value="$PROJECT_DIR$/restaurant/templates/Contacts.html" />
+        <option value="$PROJECT_DIR$/mysite/settings.py" />
       </list>
     </option>
   </component>
@@ -274,6 +257,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -788,24 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/restaurant/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#28#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restaurant/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/restaurant/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -854,51 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
-          <folding>
-            <marker date="1481926469044" expanded="true" signature="0:308" ph="&quot;&quot;&quot;Django settings for mysite project....&quot;&quot;&quot;" />
-            <marker date="1481926469044" expanded="true" signature="466:669" ph="..." />
-            <marker date="1481926469044" expanded="true" signature="882:1101" ph="..." />
-            <marker date="1481926469044" expanded="true" signature="1121:1341" ph="..." />
-            <marker date="1481926469044" expanded="true" signature="1358:1755" ph="..." />
-            <marker date="1481926469044" expanded="true" signature="1801:2270" ph="..." />
-            <marker date="1481926469044" expanded="true" signature="1807:2267" ph="..." />
-            <marker date="1481926469044" expanded="true" signature="1944:2260" ph="..." />
-            <marker date="1481926469044" expanded="true" signature="1980:2249" ph="..." />
-            <marker date="1481926469044" expanded="true" signature="2320:2395" ph="..." />
-            <marker date="1481926469044" expanded="true" signature="2410:2696" ph="..." />
-            <marker date="1481926469044" expanded="true" signature="2427:2694" ph="..." />
-            <marker date="1481926469044" expanded="true" signature="2700:2801" ph="..." />
-            <marker date="1481926469044" expanded="true" signature="2831:3225" ph="..." />
-            <marker date="1481926469044" expanded="true" signature="2837:2934" ph="..." />
-            <marker date="1481926469044" expanded="true" signature="2942:3029" ph="..." />
-            <marker date="1481926469044" expanded="true" signature="3037:3125" ph="..." />
-            <marker date="1481926469044" expanded="true" signature="3133:3222" ph="..." />
-            <marker date="1481926469044" expanded="true" signature="3229:3305" ph="..." />
-            <marker date="1481926469044" expanded="true" signature="3433:3534" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restaurant/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <element signature="e#2717#2824#0" expanded="false" />
-            <element signature="e#2849#3044#0" expanded="false" />
-            <element signature="e#3841#4038#0" expanded="false" />
-            <element signature="e#4066#4950#0" expanded="false" />
-            <element signature="e#4982#5130#0" expanded="false" />
-            <element signature="e#5158#5254#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/restaurant/templates/add.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -928,6 +862,50 @@
         <state relative-caret-position="170">
           <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="11" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restaurant/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#2717#2824#0" expanded="false" />
+            <element signature="e#2849#3044#0" expanded="false" />
+            <element signature="e#3841#4038#0" expanded="false" />
+            <element signature="e#4066#4950#0" expanded="false" />
+            <element signature="e#4982#5130#0" expanded="false" />
+            <element signature="e#5158#5254#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restaurant/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restaurant/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="e#2#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
