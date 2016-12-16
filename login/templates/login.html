@@ -1,0 +1,32 @@
+{%extends "main.html"%}
+{% block login %}
+
+<form class="form-horizontal" action = "/auth/login/" method ="post">
+ <div class="form-group">
+  <label for="username" class="col-sm-2 control-label">Логін</label>
+  <div class="col-sm-5">
+   <input type="text" class="form-control" required name="username" id="username" placeholder="Логін">
+  </div>
+ </div>
+     <div class="form-group">
+  <label for="password" class="col-sm-2 control-label">Пароль</label>
+  <div class="col-sm-5">
+   <input type="password" class="form-control" required name="password" id="password" placeholder="Пароль">
+  </div>
+ </div>
+    <div class="form-group">
+  <div class="col-sm-offset-2 col-sm-10">
+   <button type="submit" class="btn btn-success">Вхід</button>
+  </div>
+ </div>
+
+    </form>
+<form class="form-horizontal" action = "/auth/register/">
+   <div class="form-group">
+  <div class="col-sm-offset-2 col-sm-10">
+   <button type="submit" class="btn btn-success">Реєстрація</button>
+  </div>
+ </div>
+    </form>
+        {%endblock%}
+

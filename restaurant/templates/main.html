@@ -1,0 +1,215 @@
+{% load staticfiles%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="{% static '/css/bootstrap.min.css'%}" rel="stylesheet">
+    <link href="{% static '/css/font-awesome.min.css'%}" rel="stylesheet">
+    <link href="{% static '/css/prettyPhoto.css'%}" rel="stylesheet">
+    <link href="{% static '/css/animate.css'%}" rel="stylesheet%}">
+    <link href="{% static '/css/main.css'%}" rel="stylesheet%}">
+    <script src  = "{% static '/js/jquery-3.1.1.min.js'%}"></script>
+    <script src = "{% static '/js/bootstrap.min.js'%}"></script>
+   <script src  = "{% static '/js/my_script.js'%}"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Ресторан</title>
+
+</head>
+<body>
+        <div class="navbar ">
+            <div class="container">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/">Головна</a></li>
+                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Меню</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+                            <li><a href="/cold_dishes/">Холодні страви</a></li>
+                            <li><a href="/first_courses/">Перші страви</a></li>
+                            <li><a href="/hot_appetizers/">Гарячі страви</a></li>
+                            <li><a href="/salad/">Салати</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="active"><a href="/restaurant/order">Замовити бенкет</a></li>
+                    <li class="active"><a href="/restaurant/contacts">Контакти</a></li>
+
+                    {% if user.is_superuser %}
+                        <li class="active"><a href="/restaurant/add">Додати страву</a></li>
+                        <li class="active"><a href="/restaurant/orders">Замовлення</a></li>
+
+                    {%endif%}
+
+
+
+                </ul>
+                <ul class="nav">
+                     {% if user.is_authenticated %}
+              <li><button class = "pull-right btn btn-default"><a href = "/auth/logout">Выйти({{user}})</a></button></li>
+                {% else %}
+               <li><button type ="button" class = "pull-right btn btn-default" data-toggle="modal" data-target="#registration" id = "reg">Реєстрація</button>
+<div class="modal fade" id="registration" role="dialog" style = "color:black;">
+<div class="modal-dialog">
+
+
+<div class="modal-content">
+    <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <h4 class="modal-title">Реєстрація</h4>
+    </div>
+<div class="modal-body" >
+
+    <div class="center">
+    <form class="form-signin" action="/auth/register/" method="post">{% csrf_token %}
+    <div class="large-offset-3 large-6 columns">
+
+        <label for="name" >Ім'я:</label>
+    <input type="text" name="name" id="name" class="form-control" placeholder="Ім'я" required autofocus>
+        <label for="surname" >Прізвище:</label>
+    <input type="text" name="surname" id="surname" class="form-control" placeholder="Прізвище" required autofocus>
+        <label for="username" >Логін:</label>
+    <input type="text" name="username" id="username" class="form-control" placeholder="Логін" required autofocus>
+        <label for="inputPassword" >Пароль:</label>
+    <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Пароль" required>
+        <label for="inputPassword2" >Повторіть пароль:</label>
+    <input type="password" id="inputPassword2" name="password2" class="form-control" placeholder="Пароль"required>
+
+    <div class="checkbox">
+
+    </div>
+    <button type="submit" class="btn btn-success">Зареєструватися</button>
+    <button type="button" class="btn btn-danger pull-right" data-dismiss="modal">Закрити</button>
+    </div>
+    </form>
+    </div>
+</div>
+</div>
+</div>
+
+</div></li>
+               <li><button type="button" class="btn btn-default pull-right" data-toggle="modal" data-target="#login1">Вхід</button></li>
+                <div class="modal fade " id="login1" role="dialog"  >
+                    <div class="modal-dialog" style = "color:black;">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"> &times;</button>
+                          <h4 class="modal-title">Вхід</h4>
+                        </div>
+                        <div class="modal-body">
+
+
+<form action  = "/auth/login/" method = "post" role = "form">{% csrf_token %}
+  <div class="form-group">
+    <label for="username" >Логін:</label>
+    <input type="text" class="form-control" id="" placeholder="Введіть логін" name = "username">
+  </div>
+  <div class="form-group ">
+    <label for="exampleInputPassword1" class = "pull-center">Пароль:</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Пароль" name = "password" >
+  </div>
+  <button type="submit" class="btn btn-success" value = "vxod">Вхід</button>
+   <button type="button" class="btn btn-danger pull-right" data-dismiss="modal">Закрити</button>
+    </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                {% endif %}
+<li><div class="navbar-search pull-right" action="/restaurant/search/" method = "get" id="form" style="width:200px;">
+   <div class="input-group">
+    <input type="text" class="form-control" placeholder= "Назва страви"  name = "search"  id = "search">
+    <div class="input-group-btn">
+      <button class="btn btn-default search" type="submit">
+        <i class="glyphicon glyphicon-search"></i>
+      </button>
+       </div>
+  </div>
+</div>
+
+            </li>
+</ul>
+
+</div>
+            </div>
+    <div class = "karysel">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+        <img src="/media/backgrounds/background.png" style="height:500px; width:100%;" alt="">
+
+        <div class="item-box top left"></div>
+        <div class="item-box top right"></div>
+    </div>
+
+      <div class="item">
+        <img src="/media/backgrounds/background1.jpg" style="height:500px; width:100%;" alt="">
+
+        <div class="item-box top left"></div>
+        <div class="item-box top right"></div>
+    </div>
+      <div class="item">
+        <img src="/media/backgrounds/background2.jpg" style="height:500px; width:100%;" alt="">
+
+        <div class="item-box top left"></div>
+        <div class="item-box top right"></div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+    </div>
+<div id = "new_content">
+<div class = "main_content">
+
+{%block Cold_Dishes%}
+    {%endblock%}
+
+{% block First_courses %}
+    {%endblock%}
+
+{% block Hot_Appetizers %}
+    {%endblock%}
+
+{% block Salad %}
+    {%endblock%}
+
+{% block Menu %}
+    {%endblock%}
+
+{%block add%}
+    {%endblock%}
+
+{%block order%}
+    {%endblock%}
+
+{%block orders%}
+    {%endblock%}
+{% block contacts %}
+     {%endblock%}
+</div>
+
+    </div>
+
+    <script src="{% static 'js/jquery.js'%}"></script>
+    <script src="{% static 'js/bootstrap.min.js'%}"></script>
+    
+   
+</body>
+</html>
