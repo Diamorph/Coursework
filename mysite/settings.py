@@ -35,10 +35,6 @@ INSTALLED_APPS = [
     'restaurant',
 ]
 
-TEMPLATE_DIRS = [
-    'D:\Учоба\2 курс\1 семестр\ОВП\labs\project\labs\templates',
-]
-
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -49,7 +45,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'project.urls'
+ROOT_URLCONF = 'mysite.urls'
 
 TEMPLATES = [
     {
