@@ -32,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/restaurant/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="471">
               <caret line="161" column="57" selection-start-line="161" selection-start-column="57" selection-end-line="161" selection-end-column="57" />
               <folding />
             </state>
@@ -84,19 +84,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/restaurant/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+            <state relative-caret-position="221">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <element signature="e#2717#2824#0" expanded="false" />
-                <element signature="e#2849#3044#0" expanded="false" />
-                <element signature="e#3841#4038#0" expanded="false" />
-                <element signature="e#4066#4950#0" expanded="false" />
-                <element signature="e#4982#5130#0" expanded="false" />
-                <element signature="e#5158#5254#0" expanded="false" />
+                <element signature="e#2718#2825#0" expanded="false" />
+                <element signature="e#2850#3045#0" expanded="false" />
+                <element signature="e#3842#4039#0" expanded="false" />
+                <element signature="e#4067#4951#0" expanded="false" />
+                <element signature="e#4983#5131#0" expanded="false" />
+                <element signature="e#5159#5255#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -168,12 +168,12 @@
         <option value="$PROJECT_DIR$/login/templates/login.html" />
         <option value="$PROJECT_DIR$/login/views.py" />
         <option value="$PROJECT_DIR$/restaurant/urls.py" />
-        <option value="$PROJECT_DIR$/restaurant/views.py" />
         <option value="$PROJECT_DIR$/restaurant/templates/add.html" />
         <option value="$PROJECT_DIR$/restaurant/templates/order.html" />
         <option value="$PROJECT_DIR$/restaurant/templates/Contacts.html" />
         <option value="$PROJECT_DIR$/mysite/settings.py" />
         <option value="$PROJECT_DIR$/restaurant/templates/main.html" />
+        <option value="$PROJECT_DIR$/restaurant/views.py" />
       </list>
     </option>
   </component>
@@ -533,19 +533,19 @@
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-            <element signature="e#1477#1547#0" expanded="false" />
-            <element signature="e#1584#1738#0" expanded="false" />
-            <element signature="e#1771#1924#0" expanded="false" />
-            <element signature="e#1958#2107#0" expanded="false" />
-            <element signature="e#2142#2284#0" expanded="false" />
-            <element signature="e#2316#2456#0" expanded="false" />
-            <element signature="e#2486#2686#0" expanded="false" />
-            <element signature="e#2717#2824#0" expanded="false" />
-            <element signature="e#2849#3044#0" expanded="false" />
-            <element signature="e#3841#4038#0" expanded="false" />
-            <element signature="e#4066#4950#0" expanded="false" />
-            <element signature="e#4982#5130#0" expanded="false" />
-            <element signature="e#5158#5254#0" expanded="false" />
+            <element signature="e#1478#1548#0" expanded="false" />
+            <element signature="e#1585#1739#0" expanded="false" />
+            <element signature="e#1772#1925#0" expanded="false" />
+            <element signature="e#1959#2108#0" expanded="false" />
+            <element signature="e#2143#2285#0" expanded="false" />
+            <element signature="e#2317#2457#0" expanded="false" />
+            <element signature="e#2487#2687#0" expanded="false" />
+            <element signature="e#2718#2825#0" expanded="false" />
+            <element signature="e#2850#3045#0" expanded="false" />
+            <element signature="e#3842#4039#0" expanded="false" />
+            <element signature="e#4067#4951#0" expanded="false" />
+            <element signature="e#4983#5131#0" expanded="false" />
+            <element signature="e#5159#5255#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -879,6 +879,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/restaurant/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="161" column="57" selection-start-line="161" selection-start-column="57" selection-end-line="161" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/restaurant/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -889,25 +897,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/restaurant/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        <state relative-caret-position="221">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-            <element signature="e#2717#2824#0" expanded="false" />
-            <element signature="e#2849#3044#0" expanded="false" />
-            <element signature="e#3841#4038#0" expanded="false" />
-            <element signature="e#4066#4950#0" expanded="false" />
-            <element signature="e#4982#5130#0" expanded="false" />
-            <element signature="e#5158#5254#0" expanded="false" />
+            <element signature="e#2718#2825#0" expanded="false" />
+            <element signature="e#2850#3045#0" expanded="false" />
+            <element signature="e#3842#4039#0" expanded="false" />
+            <element signature="e#4067#4951#0" expanded="false" />
+            <element signature="e#4983#5131#0" expanded="false" />
+            <element signature="e#5159#5255#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restaurant/templates/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="161" column="57" selection-start-line="161" selection-start-column="57" selection-end-line="161" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>

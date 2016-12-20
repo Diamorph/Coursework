@@ -14,7 +14,7 @@ def rest(request):
     if request.method == "POST" and request.POST['name'] and request.POST['weight'] and request.POST['price'] and request.POST['consist'] and request.FILES['image']:
         form = Restaurants_Form(request.POST, request.FILES)
         if form.is_valid():
-            upload_file(request.FILES['image'])
+           # upload_file(request.FILES['image'])
         Cold_Dishes.objects.create(name=request.POST['name'],
                              weight=request.POST['weight'],
                              price=request.POST['price'],
